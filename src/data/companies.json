@@ -1,0 +1,42 @@
+[
+  {
+    "name": "amazon",
+    "path": "/companies/amazon.png",
+    "id": 1
+  },
+  {
+    "name": "google",
+    "path": "/companies/google.webp",
+    "id": 2
+  },
+  {
+    "name": "meta",
+    "path": "/companies/meta.png",
+    "id": 5
+  },
+  {
+    "name": "microsoft",
+    "path": "/companies/microsoft.png",
+    "id": 6
+  },
+  {
+    "name": "netflix",
+    "path": "/companies/Netflix.png",
+    "id": 7
+  },
+  {
+    "name": "nvidia",
+    "path": "/companies/nvidia.png",
+    "id": 8
+  },
+  {
+    "name": "paloalto",
+    "path": "/companies/Paloalto.png",
+    "id": 9
+  },
+  {
+    "name": "uber",
+    "path": "/companies/uber.png",
+    "id": 11
+  }
+]
