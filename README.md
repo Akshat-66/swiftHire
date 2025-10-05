@@ -1,6 +1,7 @@
 # SwiftHire - Modern Recruitment Platform
 
-![SwiftHire Banner](https://./swiftHireBanner.png)
+![SwiftHire Banner](./public/swiftHireBanner.png)
+
 ## 🚀 About SwiftHire
 
 SwiftHire is a cutting-edge recruitment platform that bridges the gap between talented candidates and forward-thinking companies. Built with modern web technologies, we provide a seamless hiring experience for both recruiters and job seekers.
@@ -32,7 +33,8 @@ SwiftHire is a cutting-edge recruitment platform that bridges the gap between ta
 
 ## 🚀 Live Demo
 
-Check out our live application: [SwiftHire Live Demo](https://swift-hire-pink.vercel.app/)
+Check out our live application:  
+**https://swift-hire-pink.vercel.app/**
 
 ## 💻 Local Development
 
@@ -80,6 +82,7 @@ swifthire/
 │   ├── utils/         # Utility functions
 │   └── lib/           # External library configurations
 ├── public/            # Static assets
+│   └── swiftHireBanner.png
 └── package.json       # Project dependencies
 ```
 
@@ -95,24 +98,10 @@ swifthire/
 2. Configure authentication providers
 3. Get your publishable key
 
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 📞 Support
-
-If you have any questions or need help with setup, please open an issue in the repository.
-
 ---
 
 <div align="center">
 
 **Built with ❤️ using React.js, Supabase, Tailwind CSS & Shadcn/ui**
-
-⭐ Star us on GitHub if you find this project helpful!
 
 </div>
