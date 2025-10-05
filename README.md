@@ -1,12 +1,119 @@
-# React + Vite
+# SwiftHire - Modern Recruitment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![SwiftHire Banner](https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80)
 
-Currently, two official plugins are available:
+## 🚀 About SwiftHire
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+SwiftHire is a cutting-edge recruitment platform that bridges the gap between talented candidates and forward-thinking companies. Built with modern web technologies, we provide a seamless hiring experience for both recruiters and job seekers.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👨‍💼 For Recruiters
+- **Post Multiple Jobs** - Create and manage multiple job listings with detailed descriptions
+- **Comprehensive Dashboard** - View all applicants in one place with organized candidate information
+- **Rich Job Descriptions** - Add company logos, requirements, and detailed job specifications
+- **Candidate Management** - Download resumes, read candidate info, and track applications
+- **Application Insights** - Get complete overview of all job applications
+
+### 👩‍🎓 For Candidates
+- **Smart Job Search** - Find perfect opportunities matching your skills
+- **Save Favorite Jobs** - Bookmark interesting positions for later
+- **Application Tracking** - Monitor your application status in real-time
+- **Easy Applications** - Apply with your resume quickly and efficiently
+- **Personal Dashboard** - Manage all your applications from one place
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **UI Components**: Shadcn/ui
+- **Backend**: Supabase
+- **Authentication**: Clerk
+- **Deployment**: Vercel
+
+## 🚀 Live Demo
+
+Check out our live application: [SwiftHire Live Demo](https://swift-hire-pink.vercel.app/)
+
+## 💻 Local Development
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd swifthire
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Environment Setup**
+   Create a `.env` file in the root directory and add the following variables:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url_here
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+   VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
+   ```
+
+4. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**
+   Navigate to `http://localhost:5173`
+
+## 📁 Project Structure
+
+```
+swifthire/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Application pages
+│   ├── hooks/         # Custom React hooks
+│   ├── utils/         # Utility functions
+│   └── lib/           # External library configurations
+├── public/            # Static assets
+└── package.json       # Project dependencies
+```
+
+## 🔧 Configuration
+
+### Supabase Setup
+1. Create a Supabase project
+2. Get your project URL and anon key
+3. Set up your database schema for jobs, applications, and users
+
+### Clerk Setup
+1. Create a Clerk application
+2. Configure authentication providers
+3. Get your publishable key
+
+## 🤝 Contributing
+
+We welcome contributions! Please feel free to submit pull requests or open issues for bugs and feature requests.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 📞 Support
+
+If you have any questions or need help with setup, please open an issue in the repository.
+
+---
+
+<div align="center">
+
+**Built with ❤️ using React.js, Supabase, Tailwind CSS & Shadcn/ui**
+
+⭐ Star us on GitHub if you find this project helpful!
+
+</div>
